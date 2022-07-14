@@ -30,7 +30,7 @@ class Solution:
             
         # TODO: Write code below to return a bool with the solution to the prompt
         for char in input:
-            if input.count(char) > 0:
+            if input.count(char) > 1:
                 return False
             else:
                 return True
